@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container main">
+        <h1><%= title %></h1>
+
+        <form>
+            <div class="row">
+                <h5 class="output u-full-width"></h5>
+            </div>
+            <div class="row">
+                <input class="u-full-width" type="submit" id="submit" value="ask ai">
+            </div>
+        </form>
+        <div class="row">
+            <h5 id="response"></h5>
+        </div>
+    </div>
+    <script src="javascripts/app.js"></script>
+</body>
+
+</html>

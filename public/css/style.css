@@ -1,0 +1,54 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+.main {
+    max-width: 500px;
+}
+
+.main > h1 {
+    color: #1abc9c;
+}
+
+#submit:hover {
+    background-color: #1abc9c;
+    color: white;
+}
+
+@keyframes pulse {
+    50% {
+        background-color: #1abc9c;
+        color: white;
+    }
+}
+
+#submit.pulse {
+    animation: pulse 2s ease-out 6;
+}
+
+#response{
+    color: #1abc9c;
+}
+#info {
+    margin-top: 10%;
+    background: #1abc9c;
+    color: white;
+}
+#continue{
+    color: white;
+    font-size: 2em;
+}
+
+#error{
+    margin-top: 10%;
+    background: #c0392b;
+    color: white;
+}
+h1 a{
+    color: white;
+}
